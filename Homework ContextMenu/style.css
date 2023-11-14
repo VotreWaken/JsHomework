@@ -1,0 +1,35 @@
+body 
+{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#customContextMenu 
+{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+}
+
+.colorItem 
+{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.colorSquare 
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
